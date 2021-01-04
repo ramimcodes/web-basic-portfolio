@@ -1,0 +1,78 @@
+:root {
+    --primary-color:#6C63FF;
+    --font-color:#2F2E41;
+    /* btn bg color */
+    --btn-bg-clr: #0583F2;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+p{
+    color: var(--font-color);
+}
+.high-light {
+    color: var(--primary-color);
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.profile img {
+    width: 100%;
+}
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg,var(--primary-color), var(--btn-bg-clr));
+    padding: 6px 16px;
+    color: white;
+}
+.dream img {
+    width: 100%;
+}
+
+.dreammer {
+    overflow: hidden;
+}
+.topper-section {
+    overflow: hidden;
+}
+.experiences  {
+    margin-top: 100px;
+}
+.experiences h2 {
+  margin-left: 5%;
+  border-bottom: 5px solid var(--primary-color);
+  width: 40px;
+  
+}
+
+.skills {
+    margin-top: 20px;
+    height: 250px;
+    box-shadow: 10px 10px 50px rgb(119, 117, 117);
+}
+.skills p {
+    padding: 20px;
+}
+.skills h3, h4 {
+    padding-left: 20px;
+}
+.footer {
+    margin-top:350px;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .half-width {
+        width: 100%;
+    }
+}
